@@ -35,7 +35,7 @@ AT SELECTION-SCREEN.
                                       iv_size_x = p_x
                                       iv_size_y = p_y
                                       iv_mines  = p_m ).
-*      go_model->display_arena( ).
+      go_model->display_arena( ).
     WHEN 'BACK'.
       LEAVE PROGRAM.
     WHEN 'SCORE'.
