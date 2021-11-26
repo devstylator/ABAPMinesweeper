@@ -8,7 +8,7 @@
 *       text
 *----------------------------------------------------------------------*
 MODULE pbo OUTPUT.
-
+  lcl_minesweeper=>pbo( ).
 ENDMODULE.                 " STATUS_0001  OUTPUT
 *&---------------------------------------------------------------------*
 *&      Module  PAI  INPUT
@@ -16,5 +16,5 @@ ENDMODULE.                 " STATUS_0001  OUTPUT
 *       text
 *----------------------------------------------------------------------*
 MODULE pai INPUT.
-
+  lcl_minesweeper=>pai( ).
 ENDMODULE.

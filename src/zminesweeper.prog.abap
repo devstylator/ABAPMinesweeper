@@ -30,8 +30,8 @@ AT SELECTION-SCREEN.
                                                           WHEN normal = 'X' THEN lcl_minesweeper=>mode_normal
                                                           WHEN hard   = 'X' THEN lcl_minesweeper=>mode_hard
                                                           WHEN own    = 'X' THEN lcl_minesweeper=>mode_own )
-                                      iv_neigh  = COND #( WHEN p_m_n  = 'X' THEN lcl_minesweeper=>neighbourhood_neumann
-                                                          ELSE lcl_minesweeper=>neighbourhood_moore )
+                                      iv_neigh  = COND #( WHEN p_m_n  = 'X' THEN lcl_minesweeper=>neighbourhood_moore
+                                                          ELSE lcl_minesweeper=>neighbourhood_neumann )
                                       iv_size_x = p_x
                                       iv_size_y = p_y
                                       iv_mines  = p_m ).
