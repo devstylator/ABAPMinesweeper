@@ -223,8 +223,8 @@ CLASS lcl_minesweeper IMPLEMENTATION.
                                                                            ) ).
     APPEND VALUE lvc_s_fcat( col_pos   = av_p_size_x + 1
                              fieldname = 'COLOR'
-                             ref_field = 'COLOR'
-                             ref_table = 'ZTMP_COLOR_SS'
+                             ref_field = 'COLORS'
+                             ref_table = 'CLS_BROWSER_LINE_WITH_COLORS'
                             ) TO lt_fieldcat.
 
     cl_alv_table_create=>create_dynamic_table( EXPORTING it_fieldcatalog = lt_fieldcat
